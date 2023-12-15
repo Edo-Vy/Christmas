@@ -268,31 +268,81 @@ img {
   margin: 0 auto;
 }
 
-.home__village{
+.home__village {
   width: 260px;
   bottom: 1rem;
 }
-.home__pine{
+.home__pine {
   width: 250px;
   bottom: 4rem;
 }
-.home__mountain-2{
+.home__mountain-2 {
   bottom: 3rem;
 }
-.home__mountain-3{
+.home__mountain-3 {
   bottom: 6rem;
 }
-.home__moon{
+.home__moon {
   width: 300px;
   bottom: 8.5rem;
 }
-.home__trineo{
+.home__trineo {
   width: 250px;
   bottom: 14.5rem;
 }
+
+
 /*=============== ABOUT ===============*/
+.about__container {
+  position: relative;
+  row-gap: 3.5rem;
+}
+.about__data {
+  text-align: center;
+}
+.about__description {
+  margin-bottom: 2rem;
+}
+.about__img {
+  width: 320px;
+  justify-content: center;
+}
+.about__snow-1,
+.about__snow-2 {
+  width: 50px;
+  position: absolute;
+}
+
+.about__snow-1 {
+  top: 12rem;
+  left: 1.5rem;
+  animation: var(--animate-snow-1);
+}
+
+.about__snow-2 {
+  right: -.75rem;
+  bottom: .5rem;
+  animation: var(--animate-snow-2);
+}
+
+
 
 /*=============== BUTTON ===============*/
+
+.button {
+  display: inline-block;
+  background-color: var(--first-color);
+  padding: 1rem 2rem;
+  border-radius: 4rem;
+  color: var(--white-color);
+  font-weight: var(--font-medium);
+  transition: background .4s, box-shadow .4s;
+}
+
+.button:hover{
+  background-color: var(--first-color-alt);
+  box-shadow: 0 8px 32px hsla(210, 80%, 54%, .7);
+}
 
 /*=============== SEND ===============*/
 
