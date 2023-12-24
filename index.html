@@ -20,8 +20,21 @@
 
     <!--=============== CSS ===============-->
     <link rel="stylesheet" href="assets/css/styles.css" />
+    <!-- animate -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
 
     <title>christmas</title>
+    <!-- SONG -->
+    <audio
+      src="assets/song/chris.mp3"
+      autoplay
+      loop
+      preload="auto metadata none"
+      allow="autoplay"
+    ></audio>
   </head>
 
   <body>
@@ -32,16 +45,8 @@
 
     <!--==================== HEADER ====================-->
     <header class="header" id="header">
-      <!-- SONG -->
-      <audio
-        src="assets/song/chris.mp3"
-        autoplay
-        loop
-        preload="auto metadata none"
-        allow="autoplay"
-      ></audio>
       <nav class="nav container">
-        <a href="/" class="nav__logo">
+        <a href="/" class="nav__logo /">
           <img src="assets/img/logo.png" alt="logo image" />
           Christmas
         </a>
@@ -49,16 +54,16 @@
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list">
             <li class="nav__item">
-              <a href="#home" class="nav__link active-link">Home</a>
+              <a href="#home" class="nav__link active-link">Trang Chủ</a>
             </li>
             <li class="nav__item">
-              <a href="#about" class="nav__link">About</a>
+              <a href="#about" class="nav__link">Lời Edo</a>
             </li>
             <li class="nav__item">
-              <a href="#send" class="nav__link">Send</a>
+              <a href="#send" class="nav__link">Gửi</a>
             </li>
             <li class="nav__item">
-              <a href="#celebrate" class="nav__link">Celebrate</a>
+              <a href="#celebrate" class="nav__link">Chúc Nhá</a>
             </li>
           </ul>
           <!-- Close button -->
@@ -141,15 +146,15 @@
         <div class="about__container container grid">
           <div class="about__data">
             <h2 class="section__title">
-              About Sharing <br />
-              Happiness
+              Chia Sẻ <br />
+              Niềm vui
             </h2>
             <p class="about__description">
-              Sharing these holidays is the best gift you can give, give or
-              share your love with the people you love the most and the
-              celebrate with the great happiness
+              Merry Christmas - Giáng Sinh An Lành. Chúc cho người đang đọc
+              những lời này sự an tâm, thịnh vượng qua năm tháng, hạnh phúc nhân
+              lên, sức khỏe cho bạn và gia đình.
             </p>
-            <a href="#" class="button"> Share Now </a>
+            <a href="#" class="button"> Chia Sẻ </a>
           </div>
           <img
             src="assets/img/about-christmas.png"
@@ -172,8 +177,8 @@
       <!--==================== SEND ====================-->
       <section class="send section" id="send">
         <h2 class="section__title">
-          Send Love This <br />
-          Christmas
+          Gửi Tình Yêu <br />
+          Merry Christmas
         </h2>
         <div class="send__container container grid">
           <div class="send__card">
@@ -183,9 +188,10 @@
               class="send__img"
             />
 
-            <h3 class="send__title">Spend It With Family</h3>
+            <h3 class="send__title">Gia Đình</h3>
             <p class="send__description">
-              Sharing with family is the best gift you can give.
+              Giáng Sinh thật sự ấm áp khi được ở bên những người thân yêu. Chia
+              sẻ với gia đình món quà tuyệt vời nhất bạn có thể tặng. Cầu chúc cho sức khỏe Ba - Mẹ
             </p>
           </div>
 
@@ -196,9 +202,10 @@
               class="send__img"
             />
 
-            <h3 class="send__title">Give Lots Of Love</h3>
+            <h3 class="send__title">Trao Thật Nhiều Yêu Thương</h3>
             <p class="send__description">
-              Send a gift and a lot of love to those most in need.
+              Gửi một món quà và sự ấm áp đến những người cần giúp đỡ nhất. Đôi
+              khi quà không phải là giá trị vật chất mà đó là sự chân thành
             </p>
           </div>
           <div class="send__card">
@@ -208,9 +215,10 @@
               class="send__img"
             />
 
-            <h3 class="send__title">Share Good Wishes</h3>
+            <h3 class="send__title">Chia Sẻ Lời Chúc Tốt Đẹp</h3>
             <p class="send__description">
-              Wish good messages to loved ones this Christmas.
+              Gửi những lời yêu thương tới những người thân yêu trong dịp Giáng
+              Sinh này
             </p>
           </div>
 
@@ -237,16 +245,17 @@
         <div class="celebrate__container container grid">
           <div class="celebrate__data">
             <h2 class="section__title">
-              Celebrate With A <br />
-              Lot Of Love
+              Kỉ Niệm Với <br />
+              Rất Nhiều Yêu Thương
             </h2>
 
             <p class="celebrate__description">
-              In this holidays, celebrate with much love and peace, offering
-              many blessings to our love ones, many blessings to our love ones,
+              Giáng Sinh này, hãy ăn mừng với thật nhiều tình yêu thương và bình
+              an, cầu chúc bình an cho mọi người. Chúc bạn và gia đình có một
+              mùa Giáng sinh ấm áp và năm sắp tới sẽ đầy ắp những niềm vui.
             </p>
 
-            <a href="#" class="button">Celebrate Now</a>
+            <a href="#" class="button">Merry Christmas</a>
           </div>
 
           <img
@@ -271,7 +280,7 @@
     <!--==================== FOOTER ====================-->
     <footer class="footer">
       <div class="footer__container container">
-        <a href="#" class="footer__logo">Christmas</a>
+        <a href="/" class="footer__logo">Christmas</a>
 
         <ul class="footer__social">
           <li>
@@ -306,7 +315,7 @@
         </ul>
 
         <span class="footer__copy">
-          &#169; Copyright Bedimcode. All rights reserved. Edo Vytran
+          &#169; Copyright Bedimcode. Edo Vytran
         </span>
 
         <img
